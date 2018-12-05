@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/shm.>
+#include <string.h>
+
+int main(){
+
+  int s;
+  char * data;
+  chat input[3];
+
+  printf("Do you want to modify the shared memory? (say y or n)\n");
+  scanf(s)
+  return 0;
+}
