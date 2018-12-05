@@ -1,6 +1,6 @@
-all: share.o
-	gcc -o share.o
-share.o: share.c
-	gcc -c share.c
+all: yiddich.o
+	gcc yiddich.o
+yiddich.o: yiddich.c
+	gcc -c yiddich.c
 run:
-	./test
+	./a.out
